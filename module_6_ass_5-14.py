@@ -36,4 +36,5 @@ def get_cats_info(path):
             list.append(dict)
     return list
 
+
     

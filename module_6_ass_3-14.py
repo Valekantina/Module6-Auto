@@ -23,3 +23,5 @@ def read_employees_from_file(path):
             break
     file.close()
     return result
+
+    

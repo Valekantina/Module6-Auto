@@ -42,3 +42,5 @@ def get_recipe(path, search_id):
                     'name':recipe[1],
                     'ingredients':recipe[2:]
                 }
+
+                

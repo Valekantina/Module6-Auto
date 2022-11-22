@@ -10,3 +10,4 @@ def add_employee_to_file(record, path):
     file.write(record + '\n')
     file.close()
 
+

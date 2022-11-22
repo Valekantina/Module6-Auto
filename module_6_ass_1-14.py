@@ -21,3 +21,4 @@ def total_salary(path):
     file.close()
     return result
 
+

@@ -21,3 +21,5 @@ def write_employees_to_file(employee_list, path):
         for employee in i:
             file.write(employee + '\n')
     file.close()
+
+    
