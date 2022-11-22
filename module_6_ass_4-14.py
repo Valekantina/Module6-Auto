@@ -1,4 +1,4 @@
-#  Реалізуйте функцію add_employee_to_file(record, path), яка у файл (параметр path - шлях до файлу) буде додавати співробітника (параметр record) у вигляді рядка "Drake Mikelsson,19".
+# Реалізуйте функцію add_employee_to_file(record, path), яка у файл (параметр path - шлях до файлу) буде додавати співробітника (параметр record) у вигляді рядка "Drake Mikelsson,19".
 # Вимоги:
 # параметр record - співробітник у вигляді рядка виду "Drake Mikelsson,19"
 # кожен запис у файл має починатися з нового рядка.
@@ -9,3 +9,4 @@ def add_employee_to_file(record, path):
     file = open(path, 'a')
     file.write(record + '\n')
     file.close()
+

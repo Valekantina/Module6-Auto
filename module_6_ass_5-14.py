@@ -35,3 +35,5 @@ def get_cats_info(path):
             dict['id'], dict['name'], dict['age'] = re.split(r'\s*,\s*',i)
             list.append(dict)
     return list
+
+    
